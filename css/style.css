@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: deeppink;
+}
+.containr {
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+}
+.content {
+    text-align: center;
+}
+.content-title {
+    font-size: 32px;
+    letter-spacing: -2px;
+    color: aliceblue;
+}
+.contetn-box {
+    padding-top: 30px;
+}
+.content-box_text {
+    padding-bottom: 20px;
+    display: block;
+    font-size: 22px;
+    letter-spacing: -1px;
+}
+.content-box_button {
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: brown;
+}
+.fff {
+    padding-top: 20px;
+    display: block;
+    font-size: 20px;
+    line-height: 35px;
+}
