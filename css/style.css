@@ -17,7 +17,7 @@ body {
     letter-spacing: -2px;
     color: aliceblue;
 }
-.contetn-box {
+.content-box {
     padding-top: 30px;
 }
 .content-box_text {
@@ -37,4 +37,23 @@ body {
     display: block;
     font-size: 20px;
     line-height: 35px;
+}
+@media (max-width: 375px) {
+    .contetn-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    input {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 80%;
+        padding-bottom: 20px;
+        color: hotpink;
+    }
+    
+    
 }
